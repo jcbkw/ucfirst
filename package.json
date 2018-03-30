@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Uppercases the first character of the given string and lowercases the rest.",
   "main": "index.js",
+  "bin": {
+    "ucfirst": "./bin/ucfirst.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

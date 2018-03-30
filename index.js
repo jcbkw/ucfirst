@@ -1,8 +1,10 @@
+/**
+ * Uppercases the first character of the given string and lowercases the rest.
+ * @param {*} str 
+ * @returns The `ucFirst`ed string
+ */
 function ucFirst(str) {
     return str.charAt(0).toUpperCase() + str.substring(1).toLowerCase();
 }
-if (!process.argv[2]) {
-   console.error("please provide an argument");
-   process.exit(1);
-}
-console.log(ucFirst(process.argv[2]));
+
+exports.ucFirst = ucFirst;
