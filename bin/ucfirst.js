@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var ucFirst = require('../index').ucFirst;
 
 if (!process.argv[2]) {
